@@ -7,7 +7,7 @@ I currently lead research and usability initiatives, user–focused product desi
 
 I coach teams on Enterprise Design Thinking, DesignOps, project management, design business acumen and digital optimization best practises to empower measurable user–focused outcomes.
 
-Thank you for taking th time to stop by and check out my github repo. I am updating this location later today with a customized theme Developed by [Getjekyllthemes](https://getjekyllthemes.com). If you are interested in checking out my portfolio please send me a request via [my github profile](https://github.com/artistjenna) contact info.
+Thank you for taking th time to stop by and check out my github repo. I am updating this location soon with a splash page built in html and css. If you are interested in checking out my portfolio please send me a request via [my github profile](https://github.com/artistjenna) contact info.
 
 Chat soon,
 Jenna
