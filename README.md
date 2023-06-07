@@ -1,7 +1,3 @@
----
-permalink: /index.html
----
-
 # Hello world
 Welcome
 
