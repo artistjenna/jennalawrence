@@ -445,7 +445,7 @@ h6, .h6{
       z-index: 2;
       color: #fff;
   }
-
+  
   .layer {
     position: absolute;
     z-index: 1;
@@ -509,7 +509,6 @@ h6, .h6{
       font-weight: normal;
     }
   }
-  
   .testimonial-bg-shapes {
     .container {
       position: relative;
