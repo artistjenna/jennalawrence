@@ -252,11 +252,11 @@ h6, .h6{
     outline: 0;
   }
   
-  .section {
+  .contentblock {
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .section-title {
+  .contentblock-title {
       margin-bottom: 80px;
       font-family:  'Sen', sans-serif;
   }
@@ -558,7 +558,7 @@ h6, .h6{
     padding-top: 200px;
   }
   
-  .section-on-footer {
+  .contactform {
     margin-bottom: -250px;
     background-image: url("../images/backgrounds/bg-dots.png");   
   }
