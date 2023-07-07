@@ -446,7 +446,7 @@ h6, .h6{
   
   .layer {
     position: absolute;
-    z-index: 1;
+    z-index: auto;
   }
   
   #l1 {
