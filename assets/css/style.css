@@ -252,7 +252,7 @@ h6, .h6{
     outline: 0;
   }
   
-  .section {
+  .section.section {
     padding-top: 80px;
     padding-bottom: 80px;
   }
