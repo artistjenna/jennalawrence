@@ -22,7 +22,7 @@ VERSION:	Version 1
 
 -------------------------------------------------------------------*/
 
-/* variables */
+/* variables
 :root {
     --primary-color: #41228e;
     --secondary-color: #2bfdff;
@@ -39,6 +39,8 @@ VERSION:	Version 1
     --secondary-font:  'Sen', sans-serif;
     --icon-font: 'themify';
 }
+ */
+
 /* mixins */
 @mixin mobile-xs{
     @media(max-width:400px){
@@ -73,7 +75,6 @@ VERSION:	Version 1
 /*  typography */
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
 /*font-family: 'Sen', sans-serif;*/
-
 
 body {
   line-height: 1.2;
