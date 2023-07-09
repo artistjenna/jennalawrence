@@ -1,0 +1,40 @@
+/* Information about the author */
+
+
+
+/* Body */
+
+body {
+    background-color: #4B1F82;
+}
+
+/* Typography */
+h1 {
+    font-family: 'Sen', sans-serif;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+}
+p {
+    font-family: 'Sen', sans-serif;
+    color: #fff;
+    font-weight: 400;
+}
+a {
+    font-family: 'Sen', sans-serif;
+    color: #7DF5F3;
+    text-decoration: none;
+}
+a:hover {
+    color: #b8f7f6;
+}
+.hero-linkedin-link {
+    font-size: 32px;
+}
+
+/* Sections*/
+.hero-title {
+    margin-top: 160px;
+    padding: 16px;
+    background-color: #36165F;
+}
