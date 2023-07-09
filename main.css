@@ -51,3 +51,6 @@ a:hover {
     box-shadow: 2px 2px 8px rgba(14, 5, 24, 0.60);
     width: 800px;
 }
+.bio-paragraphs {
+    margin-bottom: 32px;
+}
