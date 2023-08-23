@@ -61,6 +61,22 @@ table {
 	border-spacing: 0;
 }
 
+
+/* MY STYLES */
+
+/*smooth scroll behaviour*/
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*for accessiblility: disable smooth scrolling when users have prefers-reduced-motion enabled*/
+ @media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
 /*body*/
 
 body {
