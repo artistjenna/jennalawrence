@@ -213,12 +213,12 @@ li {
     text-align: center;
 }
 .intro h2 {
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 10;
 }
 .intro > p {
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 10;
 }
 .intro-badges {
     grid-column-start: 3;
@@ -301,12 +301,12 @@ li {
     text-align: center;
 }
 .process h2 {
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 10;
 }
 .process > p {
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 10;
 }
 .process > .steps {
     grid-column-start: 2;
@@ -330,12 +330,12 @@ li {
     text-align: center;
 }
 .connect  h2 {
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 10;
 }
 .connect > p {
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 10;
 }
 
 /*testimonials*/
@@ -349,16 +349,16 @@ li {
     text-align: center;
 }
 .testimonials  h2 {
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 10;
 }
 .testimonials > p {
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-start: 4;
+    grid-column-end: 10;
 }
 .quote {
-    grid-column-start: 2;
-    grid-column-end: 12;
+    grid-column-start: 3;
+    grid-column-end: 11;
     display:flex;
     text-align: left;
     padding-top: 48px;
