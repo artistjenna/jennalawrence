@@ -223,7 +223,7 @@ li {
 .intro-badges {
     grid-column-start: 3;
     grid-column-end: 11;
-    padding-bottom: 32px;
+    padding-bottom: 64px;
 }
 .intro-badges img {
     width: 48px;
@@ -235,6 +235,7 @@ li {
     grid-column-start: 3;
     grid-column-end: 7;
     text-align: left;
+    padding-bottom: 64px;
 }
 .intro-experience-example {
     grid-column-start: 7;
