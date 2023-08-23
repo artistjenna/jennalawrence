@@ -223,13 +223,14 @@ li {
 .intro-badges {
     grid-column-start: 3;
     grid-column-end: 11;
-    padding-bottom: 64px;
+    padding-bottom: 32px;
 }
 .intro-badges img {
-    width: 48px;
-    height: 48px;
+    width: 56px;
+    height: 56px;
     padding-left: 8px;
     padding-right: 8px;
+    padding-bottom: 16px;
 }
 .intro-experience {
     grid-column-start: 3;
@@ -318,9 +319,14 @@ li {
     justify-content: center;
 }
 .bucket {
-    margin-right: 64px;
-    margin-left: 64px;
+    margin-right: 32px;
+    margin-left: 32px;
     text-align: center;
+}
+.bucket p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 16px;
 }
 
 /*connect*/
@@ -417,6 +423,10 @@ li {
     line-height: 22px;
     border-left: 1px solid #464766;
     padding-left: 32px;
+}
+.footer-quote p {
+    color: #fff;
+    padding-bottom: 0px;
 }
 .footer-quote img{
     padding-top: 16px;
