@@ -212,12 +212,84 @@ li {
     padding-bottom: 64px;
     text-align: center;
 }
-
+.intro h2 {
+    grid-column-start: 3;
+    grid-column-end: 11;
+}
 .intro > p {
     grid-column-start: 3;
     grid-column-end: 11;
 }
-
+.intro-badges {
+    grid-column-start: 3;
+    grid-column-end: 11;
+    padding-bottom: 32px;
+}
+.intro-badges img {
+    width: 48px;
+    height: 48px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.intro-experience {
+    grid-column-start: 3;
+    grid-column-end: 7;
+    text-align: left;
+}
+.intro-experience-example {
+    grid-column-start: 7;
+    grid-column-end: 11;
+    padding-left: 32px;
+}
+.intro-experience-example img {
+    width: 362px;
+    height: 296px;
+    padding-top: 32px;
+}
+.intro-experience-example p {
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+}
+.intro-logos {
+    display: flex;
+    grid-column-start: 3;
+    grid-column-end: 11;
+    align-items:center;
+    place-items: center;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.intro-logos img {
+    padding-left: 16px;
+    padding-right: 16px;
+    align-items:center
+}
+.hoc-img {
+    width: 126.94px;
+    height: 80px;
+}
+.cibc-img {
+    width: 100px;
+    height: 25.35px;
+}
+.crea-img {
+    width: 100px;
+    height: 36.29px;
+}
+.cnl-img {
+    width: 120px;
+    height: 23.2px;
+}
+.ix-img {
+    width: 60px;
+    height: 40.89px;
+}
+.ibm-img {
+    width: 80px;
+    height: 32.1px;
+}
 /*process*/
 .process {
     display: grid;
