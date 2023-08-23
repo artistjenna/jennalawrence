@@ -357,8 +357,8 @@ li {
     grid-column-end: 10;
 }
 .quote {
-    grid-column-start: 3;
-    grid-column-end: 11;
+    grid-column-start: 2;
+    grid-column-end: 12;
     display:flex;
     text-align: left;
     padding-top: 48px;
