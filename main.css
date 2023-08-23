@@ -313,10 +313,13 @@ li {
     grid-column-end: 12;
     display: flex;
     padding-top: 32px;
+    text-align: center;
+    justify-content: center;
 }
 .bucket {
-    margin-right: 16px;
-    margin-left: 16px;
+    margin-right: 64px;
+    margin-left: 64px;
+    text-align: center;
 }
 
 /*connect*/
