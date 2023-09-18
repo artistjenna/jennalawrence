@@ -140,6 +140,10 @@ ul {
     font-size: 16px;
     font-weight: 300;
     line-height: 23px;
+    list-style-position: outside;
+    margin-left: 20px;
+    padding: 0;
+    list-style-type: disc;
 }
 li {
     font-family: 'Work Sans', sans-serif;
@@ -147,7 +151,6 @@ li {
     font-size: 16px;
     font-weight: 300;
     line-height: 23px;
-    list-style-type: disc;
 }
 .italics {
     font-style: italic;
@@ -203,7 +206,7 @@ li {
     }
     .hero-text {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
     }
     .hero-image {
         display: none;
@@ -372,15 +375,15 @@ li {
     }
     .intro h2 {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
     }
     .intro > p {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
     }
     .intro-badges {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
         padding-bottom: 32px;
     }
     .intro-badges img {
@@ -392,13 +395,13 @@ li {
     }
     .intro-experience {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
         text-align: left;
         padding-bottom: 0px;
     }
     .intro-experience-example {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
         padding-left: 0px;
     }
     .intro-experience-example img {
@@ -414,7 +417,7 @@ li {
     .intro-logos {
         display: grid;
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
         justify-items: center;
         text-align: center;
         justify-content: center;
@@ -502,15 +505,15 @@ li {
     }
     .process h2 {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
     }
     .process > p {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
     }
     .process > .steps {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
         display: grid;
         padding-top: 16px;
         text-align: center;
@@ -560,7 +563,7 @@ li {
     }
     .connect  h2 {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
     }
     .connect > p {
         grid-column-start: 2;
@@ -592,6 +595,9 @@ li {
     display:flex;
     text-align: left;
     padding-top: 48px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-bottom: #232445;
 }
 .quote-text-right {
     padding-right: 200px;
@@ -599,6 +605,15 @@ li {
 .quote-text-left {
     padding-left: 200px;
 }
+.quote p {
+    padding-bottom: 16px;
+}
+.quote > img {
+    vertical-align: top;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 /*testimonials for mobile screen sizes less than 320px wide*/
 
 @media screen and (max-width: 320px) {
@@ -613,18 +628,18 @@ li {
     }
     .testimonials  h2 {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
     }
     .testimonials > p {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
     }
     .quote > img {
         display: none;
     }
     .quote {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
         display:flex;
         text-align: left;
         padding-top: 0px;
