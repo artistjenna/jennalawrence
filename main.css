@@ -183,7 +183,6 @@ li {
     gap: 0px 30px;
     background-color: #232445;
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 .hero-text {
     grid-column-start: 3;
@@ -192,6 +191,9 @@ li {
 .hero-image {
     grid-column-start: 8;
     grid-column-end: 12;
+    width: 432px;
+    position:relative;
+    top: -37px;
 }
 /*hero for mobile screen sizes less than 320px wide*/
 
@@ -597,7 +599,6 @@ li {
     padding-top: 48px;
     align-items: flex-start;
     justify-content: flex-start;
-    border-bottom: #232445;
 }
 .quote-text-right {
     padding-right: 200px;
