@@ -192,6 +192,7 @@ li {
     grid-column-start: 8;
     grid-column-end: 12;
     width: 432px;
+    height: auto;
     position:relative;
     top: -37px;
 }
